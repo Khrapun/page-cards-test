@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Credit Cards</title>
+</head>
+<body>
+    <main class="main">
+        <section class="credit-cards">
+            <div class="credit-cards__info">
+                <div class="container flex-column">
+                    <h2 class="credit-cards__info__title">Кредитные карты</h2>
+                    <p class="credit-cards__info__description">
+                        Лучшие предложения по кредитным картам в банках. 
+                        Сравнить условия и подобрать и заказать онлайн за считанные минуты. 
+                    </p>
+                    <a href="" class="show-all">Показать весь<i class="arrow down"></i></a>
+                    <div class="credit-cards__info__types">
+                        <div class="scroll-block">
+                            <ul hidden class="credit-cards__types-list d-flex flex-wrap">
+                                <li>
+                                    <a href="#" class="credit-cards__info__type d-flex flex-column align-items-center">
+                                        <img src="./images/best-cards.png" alt="" class="">
+                                        <p><b>Лучшие</b></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="credit-cards__info__type d-flex flex-column align-items-center">
+                                        <img src="./images/Group.png" alt="" class="">
+                                        <p><b>Кэшбэк</b></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="credit-cards__info__type d-flex flex-column align-items-center">
+                                        <img src="./images/sale.png" alt="" class="">
+                                        <p><b>Низкий%</b></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="credit-cards__info__type d-flex flex-column align-items-center">
+                                        <img src="./images/plane.png" alt="" class="">
+                                        <p><b>Для путешествий</b></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="credit-cards__info__type d-flex flex-column align-items-center">
+                                        <img src="./images/rassrochka.png" alt="" class="">
+                                        <p><b>Раасрочка</b></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="credit-cards__info__type d-flex flex-column align-items-center">
+                                        <img src="./images/student.png" alt="" class="">
+                                        <p><b>Студентам</b></p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            <div class="credit-cards__filter d-flex flex-column align-items-center">
+                <div class="container">
+                    <div class="credit-cards__filter__info d-flex justify-content-between">
+                        <p>Показано <span>30</span> из <span>155</span> карт на сумму <span>10 000 Р</span> сроком на <span>14</span> дней</p>
+                        <p class="time-update">Обновлено <time>08.05.2018</time></p>
+                    </div>
+                    <div class="credit-cards__filter__sort d-flex align-items-center">
+                        <p>Сортировать:</p> 
+                        <input type="checkbox" name="menu" id="btn-cards-sort" class="check-card"/>
+                        <label class="sort" for="btn-cards-sort">по популярности<i class="arrow down"></i></label>
+                        <div class="sort-list">
+                            <ul>
+                                <li>возрастанию ставки</li>
+                                <li class="active-sorting">по популярности<span class="marker-sort"></span></li>
+                                <li>льготному периоду</li>
+                                <li>льготному периоду</li>
+                                <li>льготному периоду</li>
+                                <li>льготному периоду</li>
+                            </ul>
+                        </div>                         
+                    </div>
+                </div>
+            </div>
+            <div class="credit-cards__list d-flex flex-column align-items-center">
+                <div class="container flex-column">
+                    <article class="credit-cards__list__item flex-wrap">
+                        <a href="#" class="credit-card-title">Карта рассрочки Халва</a>
+                        <div class="credit-cards__list__item__columns d-flex">
+                            <div class="credit-cards__list__item__column-left">
+                                <div class="credit-cards__list__item__producer">
+                                    <span>Совкомбанк</span>
+                                    <span hidden>MasterCard</span>
+                                </div>
+                                <input type="checkbox" name="menu" id="btn-credit-cards-description" class="check-card"/>
+                                <label class="description btn-label-width" for="btn-credit-cards-description"><b>Описание</b><i class="arrow down"></i></label> 
+                                <p hidden class="credit-cards__list__item__description">
+                                    Карта рассрочки Халва - это возможность
+                                    совершать ежедневные покупки в рассрочку 
+                                    до 18 месяцев без первоначального взноса, 
+                                    комиссий и переплат в магазинах-партнёрах.
+                                </p>
+                                <input type="checkbox" name="menu" id="btn-credit-cards-sales" class="check-card"/>
+                                <label class="sales btn-label-width" for="btn-credit-cards-sales"><b>Бонусы и скидки</b><i class="arrow down"></i></label> 
+                                <ol class="bonus-list" hidden>
+                                    <li>
+                                        <strong>Мгновенные покупки в рассрочку.</strong>
+                                        Пришел, увидел товар и купил его без оформления документов, сэкономив время!
+                                        Без первоначального взноса и переплат.
+                                    </li>
+                                    <li>
+                                        <strong>Без первоначального взноса и переплат.</strong>
+                                        Цена товара = сумме рассрочки! 
+                                        Сумма каждой покупки делится на равное количество платежей
+                                        в зависимости от срока предоставляемой рассрочки.
+                                    </li>
+                                    <li>
+                                        <strong>Широкая партнерская сеть.</strong>
+                                        Привлекательная широкая сеть магазинов-партнеров, 
+                                        которая постоянно растет!
+                                    </li>
+                                </ol>
+                                <a href="#" class="credit-cards__list__item__more-btn">Подробнее<i class="arrow down"></i></a>
+                            </div>
+                            <div class="credit-cards__list__item__column-rigth">
+                                <div class="card-block d-flex flex-column justify-content-center align-items-center">
+                                    <p class="bank-name">Совкомбанк</p>
+                                    <div class="getting-info d-flex justify-content-around">
+                                      <img src="./images/cashback.png" alt="">
+                                      <img src="./images/delivery.png" alt="">
+                                      <img src="./images/clock.png" alt="">
+                                    </div>
+                                    <img class="card-img" src="./images/halva-mix-card-blue-1.png" alt="">
+                                    <div class="rating-block d-flex align-items-center flex-wrap justify-content-center">
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Оценка «4»"></label>    
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Оценка «3»"></label>  
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Оценка «2»"></label>    
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Оценка «1»"></label>
+                                        </div>
+                                        <a hidden href="#" class="rating_block__comment-btn">(13 отзывов)</a>
+                                    </div>
+                                    <a class="get-card__btn" href="#">Оформить карту</a>
+                                </div>
+                            </div>    
+                        </div> 
+                        <div class="credit-cards__list__item__bottom d-flex">
+                            <input type="checkbox" name="menu" id="btn-credit-cards-parameters" class="check-card"/>
+                            <label class="parameters btn-label-width" for="btn-credit-cards-parameters"><b>Параметры</b><i class="arrow down"></i></label> 
+                            <div hidden class="credit-cards__list__item__column-left credit-cards-parameters d-flex flex-column">
+                                <div class="credit-cards__list__item__bottom__info d-flex justify-content-between flex-wrap">
+                                    <div class="bottom-info-item">
+                                        <p>Ставка в год</p>
+                                        <span><b>От 0%</b></span>
+                                    </div>
+                                    <div class="bottom-info-item">
+                                        <p>Льготный период</p>
+                                        <span>До 110 дней</span>
+                                    </div>
+                                    <div class="bottom-info-item">
+                                        <p>Кредитный лемит</p>
+                                        <span>До 350000 ₽</span>
+                                    </div>
+                                    <div class="bottom-info-item">
+                                        <p>Обслуживание</p>
+                                        <span>1 560₽ в год</span>
+                                    </div>
+                                </div>
+                                <div class="card-bonuses d-flex flex-wrap">
+                                  <span class="best-card">Лучшая карта 2019</span>
+                                  <span>Низкая % ставка</span>
+                                  <span>Бесплатное обслуживание</span>
+                                </div>
+                            </div>
+                            <div hidden class="get-card credit-cards__list__item__column-rigth d-flex flex-column align-items-center">
+                                <a class="get-card__btn" href="#">Оформить карту</a>
+                                <p class="get-card__applications"><span>3 654</span>заявки</p>
+                            </div>
+                        </div>
+                        <a class="card-info" href="#">Подробнее о карте</a>
+                    </article>
+                    <article class="credit-cards__list__item flex-wrap">
+                        <a href="#" class="credit-card-title">Карта рассрочки Альфа</a>
+                        <div class="credit-cards__list__item__columns d-flex">
+                            <div class="credit-cards__list__item__column-left">
+                                <div class="credit-cards__list__item__producer">
+                                    <span>Альфа-банк</span>
+                                    <span hidden>VISA</span>
+                                </div>
+                                <input type="checkbox" name="menu" id="btn-credit-cards-description-alfa" class="check-card" />
+                                <label class="description btn-label-width" for="btn-credit-cards-description-alfa"><b>Описание</b><i class="arrow down"></i></label> 
+                                <p hidden class="credit-cards__list__item__description">
+                                    Карта рассрочки Халва - это возможность
+                                    совершать ежедневные покупки в рассрочку 
+                                    до 18 месяцев без первоначального взноса, 
+                                    комиссий и переплат в магазинах-партнёрах.
+                                </p>
+                                <input type="checkbox" name="menu" id="btn-credit-cards-sales-alfa" class="check-card"/>
+                                <label class="sales btn-label-width" for="btn-credit-cards-sales-alfa"><b>Бонусы и скидки</b><i class="arrow down"></i></label> 
+                                <ol class="bonus-list" hidden>
+                                    <li>
+                                        <strong>Мгновенные покупки в рассрочку.</strong>
+                                        Пришел, увидел товар и купил его без оформления документов, сэкономив время!
+                                        Без первоначального взноса и переплат.
+                                    </li>
+                                    <li>
+                                        <strong>Без первоначального взноса и переплат.</strong>
+                                        Цена товара = сумме рассрочки! 
+                                        Сумма каждой покупки делится на равное количество платежей
+                                        в зависимости от срока предоставляемой рассрочки.
+                                    </li>
+                                    <li>
+                                        <strong>Широкая партнерская сеть.</strong>
+                                        Привлекательная широкая сеть магазинов-партнеров, 
+                                        которая постоянно растет!
+                                    </li>
+                                </ol>
+                                <a href="#" class="credit-cards__list__item__more-btn">Подробнее<i class="arrow down"></i></a>
+                            </div>
+                            <div class="credit-cards__list__item__column-rigth">
+                                <div class="card-block d-flex flex-column justify-content-center align-items-center">
+                                    <p class="bank-name">Альфа-банк</p>
+                                    <div class="getting-info d-flex justify-content-around">
+                                      <img src="./images/cashback.png" alt="">
+                                      <img src="./images/clock.png" alt="">
+                                    </div>
+                                    <img class="card-img" src="./images/alfa-bank.png" alt="">
+                                    <div class="rating-block d-flex align-items-center flex-wrap justify-content-center">
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Оценка «4»"></label>    
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Оценка «3»"></label>  
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Оценка «2»"></label>    
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Оценка «1»"></label>
+                                        </div>
+                                        <a hidden href="#" class="rating_block__comment-btn">(13 отзывов)</a>
+                                    </div>
+                                    <a class="get-card__btn" href="#">Оформить карту</a>
+                                </div>
+                            </div>    
+                        </div> 
+                        <div class="credit-cards__list__item__bottom d-flex">
+                            <input type="checkbox" name="menu" id="btn-credit-cards-parameters-alfa" class="check-card"/>
+                            <label class="parameters btn-label-width" for="btn-credit-cards-parameters-alfa"><b>Параметры</b><i class="arrow down"></i></label> 
+                            <div hidden class="credit-cards__list__item__column-left credit-cards-parameters d-flex flex-column">
+                                <div class="credit-cards__list__item__bottom__info d-flex justify-content-between flex-wrap">
+                                    <div class="bottom-info-item">
+                                        <p>Ставка в год</p>
+                                        <span><b>От 0%</b></span>
+                                    </div>
+                                    <div class="bottom-info-item">
+                                        <p>Льготный период</p>
+                                        <span>До 110 дней</span>
+                                    </div>
+                                    <div class="bottom-info-item">
+                                        <p>Кредитный лемит</p>
+                                        <span>До 350000 ₽</span>
+                                    </div>
+                                    <div class="bottom-info-item">
+                                        <p>Обслуживание</p>
+                                        <span>1 560₽ в год</span>
+                                    </div>
+                                </div>
+                                <div class="card-bonuses d-flex flex-wrap">
+                                  <span class="best-card">Лучшая карта 2019</span>
+                                  <span>Низкая % ставка</span>
+                                  <span>Бесплатное обслуживание</span>
+                                </div>
+                            </div>
+                            <div hidden class="get-card credit-cards__list__item__column-rigth d-flex flex-column align-items-center">
+                                <a class="get-card__btn" href="#">Оформить карту</a>
+                                <p class="get-card__applications"><span>3 654</span>заявки</p>
+                            </div>
+                        </div>
+                        <a class="card-info" href="#">Подробнее о карте</a>
+                    </article>
+                    <article class="credit-cards__list__item flex-wrap">
+                        <a href="#" class="credit-card-title">Кредитная карта Kviku</a>
+                        <div class="credit-cards__list__item__columns d-flex">
+                            <div class="credit-cards__list__item__column-left">
+                                <div class="credit-cards__list__item__producer">
+                                    <span>Kviku</span>
+                                    <span hidden>VISA</span>
+                                </div>
+                                <input type="checkbox" name="menu" id="btn-credit-cards-description-kviku" class="check-card"/>
+                                <label class="description btn-label-width" for="btn-credit-cards-description-kviku"><b>Описание</b><i class="arrow down"></i></label> 
+                                <p hidden class="credit-cards__list__item__description">
+                                    Карта рассрочки Халва - это возможность
+                                    совершать ежедневные покупки в рассрочку 
+                                    до 18 месяцев без первоначального взноса, 
+                                    комиссий и переплат в магазинах-партнёрах.
+                                </p>
+                                <input type="checkbox" name="menu" id="btn-credit-cards-sales-kviku" class="check-card"/>
+                                <label class="sales btn-label-width" for="btn-credit-cards-sales-kviku"><b>Бонусы и скидки</b><i class="arrow down"></i></label> 
+                                <ol class="bonus-list" hidden>
+                                    <li>
+                                        <strong>Мгновенные покупки в рассрочку.</strong>
+                                        Пришел, увидел товар и купил его без оформления документов, сэкономив время!
+                                        Без первоначального взноса и переплат.
+                                    </li>
+                                    <li>
+                                        <strong>Без первоначального взноса и переплат.</strong>
+                                        Цена товара = сумме рассрочки! 
+                                        Сумма каждой покупки делится на равное количество платежей
+                                        в зависимости от срока предоставляемой рассрочки.
+                                    </li>
+                                    <li>
+                                        <strong>Широкая партнерская сеть.</strong>
+                                        Привлекательная широкая сеть магазинов-партнеров, 
+                                        которая постоянно растет!
+                                    </li>
+                                </ol>
+                                <a href="#" class="credit-cards__list__item__more-btn">Подробнее<i class="arrow down"></i></a>
+                            </div>
+                            <div class="credit-cards__list__item__column-rigth">
+                                <div class="card-block d-flex flex-column justify-content-center align-items-center">
+                                    <p class="bank-name">Совкомбанк</p>
+                                    <div class="getting-info d-flex justify-content-around">
+                                      <img src="./images/cashback.png" alt="">
+                                      <img src="./images/delivery.png" alt="">
+                                      <img src="./images/clock.png" alt="">
+                                    </div>
+                                    <img class="card-img" src="./images/kviku.png" alt="">
+                                    <div class="rating-block d-flex align-items-center flex-wrap justify-content-center">
+                                        <div class="rating-area">
+                                            <input type="radio" id="star-4" name="rating" value="4">
+                                            <label for="star-4" title="Оценка «4»"></label>    
+                                            <input type="radio" id="star-3" name="rating" value="3">
+                                            <label for="star-3" title="Оценка «3»"></label>  
+                                            <input type="radio" id="star-2" name="rating" value="2">
+                                            <label for="star-2" title="Оценка «2»"></label>    
+                                            <input type="radio" id="star-1" name="rating" value="1">
+                                            <label for="star-1" title="Оценка «1»"></label>
+                                        </div>
+                                        <a hidden href="#" class="rating_block__comment-btn">(13 отзывов)</a>
+                                    </div>
+                                    <a class="all-description__btn" href="#">Все условия</a>
+                                </div>
+                            </div>    
+                        </div> 
+                        <div class="credit-cards__list__item__bottom d-flex">
+                            <input type="checkbox" name="menu" id="btn-credit-cards-parameters-kviku" class="check-card"/>
+                            <label class="parameters btn-label-width" for="btn-credit-cards-parameters-kviku"><b>Параметры</b><i class="arrow down"></i></label> 
+                            <div hidden class="credit-cards__list__item__column-left credit-cards-parameters d-flex flex-column">
+                                <div class="credit-cards__list__item__bottom__info d-flex justify-content-between flex-wrap">
+                                    <div class="bottom-info-item">
+                                        <p>Ставка в год</p>
+                                        <span><b>От 0%</b></span>
+                                    </div>
+                                    <div class="bottom-info-item">
+                                        <p>Льготный период</p>
+                                        <span>До 110 дней</span>
+                                    </div>
+                                    <div class="bottom-info-item">
+                                        <p>Кредитный лемит</p>
+                                        <span>До 350000 ₽</span>
+                                    </div>
+                                    <div class="bottom-info-item">
+                                        <p>Обслуживание</p>
+                                        <span>1 560₽ в год</span>
+                                    </div>
+                                </div>
+                                <div class="card-bonuses d-flex flex-wrap">
+                                  <span class="best-card">Лучшая карта 2019</span>
+                                  <span>Низкая % ставка</span>
+                                  <span>Бесплатное обслуживание</span>
+                                </div>
+                            </div>
+                            <div hidden class="get-card credit-cards__list__item__column-rigth d-flex flex-column align-items-center">
+                                <a class="all-description__btn" href="#">Все условия</a>
+                                <p class="get-card__applications"><span>3 654</span>заявки</p>
+                            </div>
+                        </div>
+                        <a class="card-info" href="#">Подробнее о карте</a>
+                    </article>
+                    <div class="pagination d-flex justify-content-center">
+                        <ul class="list-reset d-flex">
+                            <li class="prev disabled"><a class="link-to-page" href=""><i class="arrow left"></i></a></li>
+                            <li class="active-page"><a class="link-to-page" href="">1</a></li>
+                            <li><a class="link-to-page" href="">2</a></li>
+                            <li><a class="link-to-page" href="">3</a></li>
+                            <li><a class="link-to-page" href="">4</a></li>
+                            <li><a class="link-to-page" href="">5</a></li>
+                            <li class="next"><a class="link-to-page" href=""><i class="arrow right"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="feedback d-flex">
+                        <div class="feedback__description d-flex flex-column justify-content-around">
+                            <h3>Оставьте отзыв о кредитных картах</h3>
+                            <p>Нашли хорошую карту, были сложности с оформлением, отказали в получении? Расскажите об этом.</p>
+                        </div>
+                        <a href="#" class="btn get-card__btn">Оставить отзыв</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
