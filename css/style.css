@@ -109,6 +109,10 @@ li {
     background-color: #F8FBFE;
 }
 
+.credit-card-title: hover {
+	color: #95CE5A;
+}
+
 .credit-cards__info::after {
     content: '';
     position: absolute;
